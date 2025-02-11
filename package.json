@@ -1,0 +1,29 @@
+{
+  "name": "callshark-sdk",
+  "version": "1.0.16233",
+  "description": "sdk",
+  "author": "alx.skryabin",
+  "keywords": [
+    "sdk"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --write .",
+    "publish-npm": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "license": "ISC"
+}
